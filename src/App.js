@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import Sabrine1 from './Sabrine1';
+import Sabrine2 from './Sabrine2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+    <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -20,7 +20,8 @@ function App() {
         </a>
       </header>
       <Sabrine1 />
-    </div>
+      <Sabrine2 />
+          </div>
   );
 }
 
